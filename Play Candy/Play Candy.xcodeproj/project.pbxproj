@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		427B3A50271FE27900C06273 /* RoundedRectProgressViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427B3A4F271FE27900C06273 /* RoundedRectProgressViewStyle.swift */; };
+		427B3A52271FE2DE00C06273 /* ButtonDesignView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427B3A51271FE2DE00C06273 /* ButtonDesignView.swift */; };
+		427B3A62272028E000C06273 /* Prizecircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427B3A61272028DF00C06273 /* Prizecircle.swift */; };
+		427B3A64272028EB00C06273 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427B3A63272028EB00C06273 /* SoundPlayer.swift */; };
+		427B3A662720290000C06273 /* ViewSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427B3A652720290000C06273 /* ViewSheet.swift */; };
+		427B3A6927202C1200C06273 /* NorthWind.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 427B3A6827202C1200C06273 /* NorthWind.mp3 */; };
+		428BA009271D40C500FB5B03 /* Play_CandyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428BA008271D40C500FB5B03 /* Play_CandyApp.swift */; };
+		428BA00B271D40C500FB5B03 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428BA00A271D40C500FB5B03 /* ContentView.swift */; };
+		428BA00D271D40C700FB5B03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 428BA00C271D40C700FB5B03 /* Assets.xcassets */; };
+		428BA010271D40C700FB5B03 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 428BA00F271D40C700FB5B03 /* Preview Assets.xcassets */; };
+		428BA017271D444F00FB5B03 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428BA016271D444F00FB5B03 /* TabBar.swift */; };
+		428BA01D271D463A00FB5B03 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428BA01C271D463A00FB5B03 /* Home.swift */; };
+		428BA01F271D4A5A00FB5B03 /* HomeItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428BA01E271D4A5A00FB5B03 /* HomeItems.swift */; };
+		428BA021271D583100FB5B03 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428BA020271D583100FB5B03 /* CardView.swift */; };
+		428BA024271D603600FB5B03 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428BA023271D603600FB5B03 /* BlurView.swift */; };
+		428BA028271D607D00FB5B03 /* CustomCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428BA027271D607D00FB5B03 /* CustomCorners.swift */; };
+		428BA02B271D772100FB5B03 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428BA02A271D772100FB5B03 /* DetailViewModel.swift */; };
+		428BA02D271D792100FB5B03 /* Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428BA02C271D792100FB5B03 /* Detail.swift */; };
+		428BA033271D952C00FB5B03 /* CardHorizontalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428BA032271D952C00FB5B03 /* CardHorizontalView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		427B3A4F271FE27900C06273 /* RoundedRectProgressViewStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedRectProgressViewStyle.swift; sourceTree = "<group>"; };
+		427B3A51271FE2DE00C06273 /* ButtonDesignView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonDesignView.swift; sourceTree = "<group>"; };
+		427B3A61272028DF00C06273 /* Prizecircle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Prizecircle.swift; sourceTree = "<group>"; };
+		427B3A63272028EB00C06273 /* SoundPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
+		427B3A652720290000C06273 /* ViewSheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewSheet.swift; sourceTree = "<group>"; };
+		427B3A6827202C1200C06273 /* NorthWind.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = NorthWind.mp3; sourceTree = "<group>"; };
+		428BA005271D40C500FB5B03 /* Play Candy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Play Candy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		428BA008271D40C500FB5B03 /* Play_CandyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Play_CandyApp.swift; sourceTree = "<group>"; };
+		428BA00A271D40C500FB5B03 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		428BA00C271D40C700FB5B03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		428BA00F271D40C700FB5B03 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		428BA016271D444F00FB5B03 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		428BA01C271D463A00FB5B03 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		428BA01E271D4A5A00FB5B03 /* HomeItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeItems.swift; sourceTree = "<group>"; };
+		428BA020271D583100FB5B03 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		428BA023271D603600FB5B03 /* BlurView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		428BA027271D607D00FB5B03 /* CustomCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCorners.swift; sourceTree = "<group>"; };
+		428BA02A271D772100FB5B03 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		428BA02C271D792100FB5B03 /* Detail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detail.swift; sourceTree = "<group>"; };
+		428BA032271D952C00FB5B03 /* CardHorizontalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardHorizontalView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		428BA002271D40C500FB5B03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		427B3A6727202C0300C06273 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				427B3A6827202C1200C06273 /* NorthWind.mp3 */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
+		428B9FFC271D40C500FB5B03 = {
+			isa = PBXGroup;
+			children = (
+				428BA007271D40C500FB5B03 /* Play Candy */,
+				428BA006271D40C500FB5B03 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		428BA006271D40C500FB5B03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				428BA005271D40C500FB5B03 /* Play Candy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		428BA007271D40C500FB5B03 /* Play Candy */ = {
+			isa = PBXGroup;
+			children = (
+				428BA01A271D455200FB5B03 /* View */,
+				428BA01B271D456000FB5B03 /* Model */,
+				428BA008271D40C500FB5B03 /* Play_CandyApp.swift */,
+				428BA00A271D40C500FB5B03 /* ContentView.swift */,
+				428BA00C271D40C700FB5B03 /* Assets.xcassets */,
+				428BA029271D76F600FB5B03 /* ViewModel */,
+				428BA022271D5FF700FB5B03 /* Constant */,
+				428BA00E271D40C700FB5B03 /* Preview Content */,
+			);
+			path = "Play Candy";
+			sourceTree = "<group>";
+		};
+		428BA00E271D40C700FB5B03 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				428BA00F271D40C700FB5B03 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		428BA01A271D455200FB5B03 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				427B3A6727202C0300C06273 /* Sound */,
+				428BA016271D444F00FB5B03 /* TabBar.swift */,
+				428BA01C271D463A00FB5B03 /* Home.swift */,
+				428BA020271D583100FB5B03 /* CardView.swift */,
+				428BA02C271D792100FB5B03 /* Detail.swift */,
+				427B3A61272028DF00C06273 /* Prizecircle.swift */,
+				428BA032271D952C00FB5B03 /* CardHorizontalView.swift */,
+				427B3A51271FE2DE00C06273 /* ButtonDesignView.swift */,
+				427B3A652720290000C06273 /* ViewSheet.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		428BA01B271D456000FB5B03 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				428BA01E271D4A5A00FB5B03 /* HomeItems.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		428BA022271D5FF700FB5B03 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				427B3A63272028EB00C06273 /* SoundPlayer.swift */,
+				427B3A4F271FE27900C06273 /* RoundedRectProgressViewStyle.swift */,
+				428BA023271D603600FB5B03 /* BlurView.swift */,
+				428BA027271D607D00FB5B03 /* CustomCorners.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		428BA029271D76F600FB5B03 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				428BA02A271D772100FB5B03 /* DetailViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		428BA004271D40C500FB5B03 /* Play Candy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 428BA013271D40C700FB5B03 /* Build configuration list for PBXNativeTarget "Play Candy" */;
+			buildPhases = (
+				428BA001271D40C500FB5B03 /* Sources */,
+				428BA002271D40C500FB5B03 /* Frameworks */,
+				428BA003271D40C500FB5B03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Play Candy";
+			productName = "Play Candy";
+			productReference = 428BA005271D40C500FB5B03 /* Play Candy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		428B9FFD271D40C500FB5B03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					428BA004271D40C500FB5B03 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 428BA000271D40C500FB5B03 /* Build configuration list for PBXProject "Play Candy" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 428B9FFC271D40C500FB5B03;
+			productRefGroup = 428BA006271D40C500FB5B03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				428BA004271D40C500FB5B03 /* Play Candy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		428BA003271D40C500FB5B03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				428BA010271D40C700FB5B03 /* Preview Assets.xcassets in Resources */,
+				427B3A6927202C1200C06273 /* NorthWind.mp3 in Resources */,
+				428BA00D271D40C700FB5B03 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		428BA001271D40C500FB5B03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				428BA017271D444F00FB5B03 /* TabBar.swift in Sources */,
+				427B3A52271FE2DE00C06273 /* ButtonDesignView.swift in Sources */,
+				427B3A50271FE27900C06273 /* RoundedRectProgressViewStyle.swift in Sources */,
+				428BA024271D603600FB5B03 /* BlurView.swift in Sources */,
+				427B3A62272028E000C06273 /* Prizecircle.swift in Sources */,
+				428BA00B271D40C500FB5B03 /* ContentView.swift in Sources */,
+				428BA01D271D463A00FB5B03 /* Home.swift in Sources */,
+				428BA02B271D772100FB5B03 /* DetailViewModel.swift in Sources */,
+				428BA01F271D4A5A00FB5B03 /* HomeItems.swift in Sources */,
+				428BA02D271D792100FB5B03 /* Detail.swift in Sources */,
+				427B3A64272028EB00C06273 /* SoundPlayer.swift in Sources */,
+				428BA033271D952C00FB5B03 /* CardHorizontalView.swift in Sources */,
+				428BA028271D607D00FB5B03 /* CustomCorners.swift in Sources */,
+				428BA021271D583100FB5B03 /* CardView.swift in Sources */,
+				427B3A662720290000C06273 /* ViewSheet.swift in Sources */,
+				428BA009271D40C500FB5B03 /* Play_CandyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		428BA011271D40C700FB5B03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		428BA012271D40C700FB5B03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		428BA014271D40C700FB5B03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Play Candy/Preview Content\"";
+				DEVELOPMENT_TEAM = 7U2GHRU99A;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SpaceGen.Play-Candy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		428BA015271D40C700FB5B03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Play Candy/Preview Content\"";
+				DEVELOPMENT_TEAM = 7U2GHRU99A;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SpaceGen.Play-Candy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		428BA000271D40C500FB5B03 /* Build configuration list for PBXProject "Play Candy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				428BA011271D40C700FB5B03 /* Debug */,
+				428BA012271D40C700FB5B03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		428BA013271D40C700FB5B03 /* Build configuration list for PBXNativeTarget "Play Candy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				428BA014271D40C700FB5B03 /* Debug */,
+				428BA015271D40C700FB5B03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 428B9FFD271D40C500FB5B03 /* Project object */;
+}
